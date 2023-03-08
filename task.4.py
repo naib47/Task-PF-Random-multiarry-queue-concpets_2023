@@ -1,3 +1,6 @@
+""""rite a method which can create a multi die-mention array by getting number
+of values of first list and number of values for the associative list, display the list as value in table formate"""
+
 rows = int(input("Enter the number of rows: "))
 cols = int(input("Enter the number of columns: "))
 # Create an empty multi-dimensional array with the specified size
