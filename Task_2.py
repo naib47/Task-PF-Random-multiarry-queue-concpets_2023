@@ -1,3 +1,8 @@
+"""Program 2_
+write a method with fixed length of list 5.
+if user enter more then 5th value in the list bottom value should be 
+removed and new value should be added at the top of list"""
+
 def add_to_top(val_2, list_2):
     list_2.insert(0, val_2)
     if len(list_2) > 5:
