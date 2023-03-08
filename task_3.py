@@ -1,3 +1,7 @@
+"""write a method with list of random numbers, when user add new value methode will check 
+if the value already exist in list return message value already in the list other wise add 
+the value in the list and display back the list till that value"""
+
 def check_and_add_value(random_numbers):
     new_value = input("Enter a new value to add to the list: ")
     if new_value in random_numbers:
